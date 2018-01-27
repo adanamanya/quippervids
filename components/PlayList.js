@@ -4,9 +4,6 @@ import {
  StyleSheet,
  Text,
  View,
- Picker,
- Image,
- Alert,
  TouchableOpacity
 } from 'react-native';
 import {
