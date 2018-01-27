@@ -1,10 +1,14 @@
-# quippervids
-react native implementation for video stream
+## Example App
 
-to run the project 
+Normally, after a code change to react-native-router-flux src files,
+you must remove the node_modules/react-native-router-flux directory
+and npm install.  The react-native packager wont follow symlinks.
 
-please run npm install on project folder
-and then react-native run-android /or react-native run-ios
+To assist development, this command watches and rsyncs changes:
 
-you can find the builded apk release here.
-https://drive.google.com/file/d/1fGZUAxFHmID1yGMYSYH_WYz_q5Wp9nfZ/view?usp=sharing
+```
+npm run sync-rnrf
+```
+
+Leave a terminal open running this command when running the Example
+app and making react-native-router-flux src changes.
