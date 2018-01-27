@@ -1,14 +1,7 @@
-## Example App
+## React Native Video Stream Implementation
 
-Normally, after a code change to react-native-router-flux src files,
-you must remove the node_modules/react-native-router-flux directory
-and npm install.  The react-native packager wont follow symlinks.
+to run the project, please run 'npm install' first on project directory
 
-To assist development, this command watches and rsyncs changes:
+and then run 'react-native run-android' or 'react-native run-ios'
 
-```
-npm run sync-rnrf
-```
-
-Leave a terminal open running this command when running the Example
-app and making react-native-router-flux src changes.
+you can find the builded apk here: https://drive.google.com/file/d/1fGZUAxFHmID1yGMYSYH_WYz_q5Wp9nfZ/view?usp=sharing
